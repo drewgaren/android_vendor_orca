@@ -198,5 +198,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.orca.version=$(ORCA_VERSION) \
   ro.modversion=$(ORCA_VERSION)
 
+# goo.im properties
+ifneq ($(DEVELOPER_VERSION),true)
+    PRODUCT_PROPERTY_OVERRIDES += \
+      ro.goo.developerid=drewgaren \
+      ro.goo.rom=Orca_Nightlies \
+      ro.goo.version=$(shell date +%s)
+endif
 
 -include $(WORKSPACE)/hudson/image-auto-bits.mk
