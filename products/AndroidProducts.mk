@@ -28,3 +28,9 @@ endif
 ifeq (orca_flo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/orca_flo.mk
 endif
+ifeq (orca_stingray,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/orca_stingray.mk
+endif
+ifeq (orca_wingray,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/orca_wingray.mk
+endif

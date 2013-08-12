@@ -9,3 +9,5 @@ add_lunch_combo orca_toro-userdebug
 add_lunch_combo orca_toroplus-userdebug
 add_lunch_combo orca_crespo-userdebug
 add_lunch_combo orca_find5-userdebug
+add_lunch_combo orca_stingray-userdebug
+add_lunch_combo orca_wingray-userdebug

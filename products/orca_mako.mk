@@ -25,3 +25,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT=google/occa
 
 # Enable Torch
 PRODUCT_PACKAGES += Torch
+
+PRODUCT_COPY_FILES += \
+    vendor/orca/prebuilt/common/bootanimation/XHDPI.zip:system/media/bootanimation.zip
