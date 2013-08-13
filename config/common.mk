@@ -94,6 +94,7 @@ PRODUCT_PACKAGES += \
     Focal \
     DaskClock \
     Development \
+    Trebuchet \
     LatinIME \
     Superuser \
     su
