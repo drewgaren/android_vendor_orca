@@ -8,6 +8,9 @@ TARGET_SCREEN_WIDTH := 768
 # Inherit some common orca stuff.
 $(call inherit-product, vendor/orca/config/common_full_phone.mk)
 
+# Enhanced NFC
+$(call inherit-product, vendor/orca/config/nfc_enhanced.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/lge/mako/full_mako.mk)
 
